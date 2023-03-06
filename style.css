@@ -2,7 +2,77 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-}
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;}
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+    padding: 0 20px;
+}
+nav .one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.one ul {
+    display: flex;
+    margin-left: 20px;
+}
+.one ul li{
+    list-style: none;
+    margin: 0 12px;
+}
+.one ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+.one img{
+    width: 120px;
+}
+nav  button {
+    margin-right: 20px;
+}
+nav  button , .hero button{
+    background-color: #5955b3;
+    border: none;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 200;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+}
+.hero .left-hero-section{
+    margin-left: 30px;
+}
+.hero .left-hero-section h1{
+    font-weight: 900;
+    font-size: 54px;
+    color: #3c2f60;
+}
+.hero .left-hero-section span {
+    color: #5955b3;
+  }
+  .hero .left-hero-section p {
+    font-weight: 300;
+    font-size: 14px;
+    color: #828282;
+    margin-top: 18px;
+  }
+.hero  img{
+    width: 500px;
+}
+.hero .left-hero-section button{
+    margin-top: 40px;
 }
