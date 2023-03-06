@@ -23,15 +23,15 @@ nav .one{
 }
 .one ul li{
     list-style: none;
-    margin: 0 12px;
+    margin: 0 15px;
 }
 .one ul li a{
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     color: black;
 }
 .one img{
-    width: 120px;
+    width: 150px;
 }
 nav  button {
     margin-right: 20px;
@@ -57,21 +57,26 @@ nav  button , .hero button{
     margin-left: 30px;
 }
 .hero .left-hero-section h1{
-    font-weight: 900;
-    font-size: 54px;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 74px;
     color: #3c2f60;
 }
 .hero .left-hero-section span {
     color: #5955b3;
   }
   .hero .left-hero-section p {
-    font-weight: 300;
-    font-size: 14px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
     color: #828282;
-    margin-top: 18px;
+    margin-top: 28px;
   }
 .hero  img{
-    width: 500px;
+    width: 700px;
 }
 .hero .left-hero-section button{
     margin-top: 40px;
